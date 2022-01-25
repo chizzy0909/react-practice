@@ -1,0 +1,110 @@
+#flash {
+  width: 1226px;
+  flex-shrink: 0;
+  height: 398px;
+  margin-top: 20px;
+}
+
+#flash > h2 {
+  height: 58px;
+  line-height: 58px;
+  font-weight: bold;
+}
+
+#flash ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+#flash ul li {
+  width: 234px;
+  height: 352px;
+  background-color: #fafafa;
+  border-top: 1px solid #ffa500;
+}
+
+#flash ul li:nth-child(2) {
+  border-color: #008000;
+}
+
+#flash ul li:nth-child(3) {
+  border-color: #00f;
+}
+
+#flash ul li:nth-child(4) {
+  border-color: #f00;
+}
+
+#flash ul li:nth-child(5) {
+  border-color: #008080;
+}
+
+#flash ul li a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+#flash ul li a img {
+  width: 160px;
+  height: 160px;
+  opacity: 0.8;
+  margin: 37px;
+}
+
+#flash ul li a .discount {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin: 15px 0;
+}
+
+#flash ul li a .item_price {
+  color: #1baeae;
+}
+
+#flash ul li a:hover img {
+  opacity: 1;
+}
+
+#flash .time {
+  background-color: #f1eded;
+}
+
+#flash .time .name {
+  margin-top: 53px;
+  font-size: 21px;
+  color: #ef3a3b;
+}
+
+#flash .time img {
+  width: 34px;
+  height: 53px;
+}
+
+#flash .time .text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#flash .time .flashTime {
+  margin: 28px 33px 0;
+  color: #fff;
+  font-size: 24px;
+  line-height: 46px;
+  display: flex;
+  justify-content: center;
+}
+
+#flash .time .flashTime .box {
+  width: 46px;
+  height: 46px;
+  background-color: #605751;
+}
+
+#flash .time .flashTime .dosh {
+  height: 46px;
+  font-size: 28px;
+  color: #605751;
+}

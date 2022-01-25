@@ -1,0 +1,134 @@
+.g-grid_item {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: block;
+  box-sizing: content-box;
+  width: 370px;
+  padding: 10px 10px;
+}
+.fa-comment-dots {
+  color: rgb(21, 158, 149);
+}
+.fa-angle-right,
+.fa-angle-left {
+  cursor: pointer;
+  color: rgb(21, 158, 149);
+}
+
+#ZVCQA .zv-select {
+  cursor: pointer;
+  padding: 6px 4px 7px 5px;
+  font-size: 13px;
+}
+.zv-cqa-step {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+#zv-cqa-select-sort {
+  margin-left: 25px;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 20%);
+  border-radius: 7px;
+}
+
+.zv-cqa {
+  margin: 0 0 15px;
+  border-bottom: 1px dashed #dbdbdb;
+  padding-bottom: 15px;
+}
+.zv-cqa-question {
+  padding: 15px 0 0;
+}
+.zv-space {
+  width: 20px;
+  display: block;
+  float: left;
+  font-weight: bold;
+}
+.zv-cqa-q-text {
+  font-weight: bold;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+#ZVCQA p.zv-heading,
+#ZVCQA span.zv-cqa-q-reviewer,
+#ZVCQA span.zv-cqa-a-reviewer,
+#ZVCQA div.zv-popupModal1,
+#ZVCQA span.zv-separator {
+  display: none;
+}
+.zv-cqa-q-reviewer {
+  margin-left: 20px;
+}
+.zv-cqa-q-reviewer,
+.zv-cqa-q-created-at {
+  font-size: 13px;
+  color: #555;
+}
+.zv-cqa-answer {
+  margin: 10px 0 0 10px;
+}
+.zv-cqa-a-content {
+  display: block;
+  width: calc(100% - 20px);
+  float: none;
+}
+.zv-p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+#ZVCQA .zv-helpful-form {
+  line-height: 1;
+  margin-top: 15px;
+}
+.zv-helpful {
+  cursor: pointer;
+}
+.fa-thumbs-up {
+  cursor: pointer;
+  font-size: 20px;
+  color: darkgray;
+}
+.zv-cqa-posting-rule {
+  border: 1px dotted #bdc3c7;
+  padding: 0 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.zv-cqa-posting-rule-title {
+  font-weight: bold;
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #eb6157;
+}
+#ZVCQAPost li {
+  list-style: disc inside;
+}
+#ZVCQA .zv-textbox {
+  font-size: 13px;
+  padding: 10px;
+  border: solid 1px #bdc3c7;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 20%);
+  border-radius: 3px;
+  width: 350px;
+}
+#ZVCQA .zv-btn {
+  margin-top: 10px;
+  padding: 8px 10px;
+  font-weight: normal;
+  cursor: pointer;
+  border-color: #bdc3c7;
+  border-radius: 3px;
+  font-size: 13px;
+  background: rgb(248, 248, 248);
+  color: rgb(59, 60, 62);
+}
+
+.hiddenQaSec {
+  display: none;
+}
+.hiddenQuestionId {
+  display: none;
+}
