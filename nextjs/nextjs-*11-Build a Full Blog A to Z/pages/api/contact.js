@@ -24,7 +24,7 @@ async function handler(req, res) {
 
     let client;
 
-    const connectionString = `mongodb+srv://CHZ:aaaaaaaa@cluster0.0cynf.mongodb.net/myData?retryWrites=true&w=majority`;
+    const connectionString = `mongodb://CHZ:aaaaaaaa@cluster0-shard-00-00.0cynf.mongodb.net:27017,cluster0-shard-00-01.0cynf.mongodb.net:27017,cluster0-shard-00-02.0cynf.mongodb.net:27017/nextBlog?ssl=true&replicaSet=atlas-ve3qm2-shard-0&authSource=admin&retryWrites=true&w=majority`;
 
     try {
       client = await MongoClient.connect(connectionString);

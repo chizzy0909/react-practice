@@ -11,7 +11,7 @@ async function handler(req, res) {
     }
 
     // const client = await MongoClient.connect(
-    //   "mongodb+srv://CHZ:aaaaaaaa@cluster0.0cynf.mongodb.net/newsletter?retryWrites=true&w=majority"
+    //   "mongodb://CHZ:aaaaaaaa@cluster0-shard-00-00.0cynf.mongodb.net:27017,cluster0-shard-00-01.0cynf.mongodb.net:27017,cluster0-shard-00-02.0cynf.mongodb.net:27017/nextEvents?ssl=true&replicaSet=atlas-ve3qm2-shard-0&authSource=admin&retryWrites=true&w=majority"
     // );
     // const db = client.db();
     // await db.collection("emails").insertOne({ email: userEmail });
